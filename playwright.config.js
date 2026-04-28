@@ -42,7 +42,7 @@ export default defineConfig({
   /* Configure projects for major browsers */
   projects: [
     {name: 'setup',
-      testMatch: /auth\.setup\.js/,
+      testMatch: /auth.setup.js/,
     },
     {
       name: 'chromium',
