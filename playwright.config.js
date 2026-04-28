@@ -33,7 +33,7 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     // You can now use the BASE_URL from your .env here
-    baseURL: process.env.BASE_URL,
+    baseURL: process.env.BASE_URL || 'http://localhost:3000' , // add Fallback to localhost if BASE_URL is not set
     screenshot: 'only-on-failure',
    
     trace: 'on-first-retry',
