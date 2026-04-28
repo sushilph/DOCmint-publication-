@@ -1,0 +1,37 @@
+{
+  "cookies": [
+    {
+      "name": "accessToken",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzdXNoaWxwaHVsYXJhQGdtYWlsLmNvbSIsImV4cCI6MTc3Nzk3MzkyNCwiY3R4IjoicCJ9.zs2rS2HUlelWSQ5YtBKwqckedJ39aIbi6KTmb9MEk_Q",
+      "domain": "docmint.treeleaf.ai",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://docmint.treeleaf.ai",
+      "localStorage": [
+        {
+          "name": "accessToken",
+          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzdXNoaWxwaHVsYXJhQGdtYWlsLmNvbSIsImV4cCI6MTc3Nzk3MzkyNCwiY3R4IjoicCJ9.zs2rS2HUlelWSQ5YtBKwqckedJ39aIbi6KTmb9MEk_Q"
+        },
+        {
+          "name": "dm_allow_personal",
+          "value": "1"
+        },
+        {
+          "name": "dm_workspace_orgs",
+          "value": "[{\"organization_id\":\"3ab3f17c567b4faf91d03bb8395368a3\",\"organization_name\":\"!ins_titution@ name1\",\"role\":\"ORGANIZATION_EDITOR\"},{\"organization_id\":\"cbc2b74f05c64624bb6112bacd894ffc\",\"organization_name\":\"institution 2\",\"role\":\"ORGANIZATION_EDITOR\"}]"
+        },
+        {
+          "name": "session",
+          "value": "{\"access_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzdXNoaWxwaHVsYXJhQGdtYWlsLmNvbSIsImV4cCI6MTc3Nzk3MzkyNCwiY3R4IjoicCJ9.zs2rS2HUlelWSQ5YtBKwqckedJ39aIbi6KTmb9MEk_Q\",\"token_type\":\"bearer\",\"ttl\":604800,\"expiry\":\"2026-05-05T09:38:44.816656\",\"username\":\"sushilphulara@gmail.com\",\"email\":\"sushilphulara@gmail.com\",\"role\":\"USER\",\"user\":{\"user_id\":\"b9dd5a0a43e540c9a41b8cbaa6abda42\",\"email\":\"sushilphulara@gmail.com\",\"username\":\"sushil_1\",\"full_name\":\"sushil_1\",\"phone\":\"12345678A\",\"profile_pic_url\":null,\"role\":\"USER\",\"status\":\"active\",\"storage_used\":0,\"created_at\":null,\"updated_at\":null},\"organization\":{\"organization_id\":\"8781ec5a901b4c56ab50a85be462f231\",\"name\":\"sushil_1\",\"email\":\"sushilphulara@gmail.com\",\"phone\":\"12345678A\",\"industry_type\":null,\"address\":null,\"profile_pic_url\":null,\"account_type\":\"INDIVIDUAL\",\"status\":\"approved\",\"status_reason\":null,\"approved_by\":null,\"approved_at\":null,\"user_id\":\"b9dd5a0a43e540c9a41b8cbaa6abda42\",\"user\":null,\"created_at\":\"2026-04-22T06:02:07.999946Z\",\"updated_at\":\"2026-04-22T06:02:07.999946Z\"},\"memberships\":[{\"organization_id\":\"cbc2b74f05c64624bb6112bacd894ffc\",\"organization_name\":\"institution 2\",\"role\":\"ORGANIZATION_VIEWER\",\"labels\":null}],\"account_context\":\"personal\",\"organization_user_id\":null,\"organization_name\":null}"
+        }
+      ]
+    }
+  ]
+}
