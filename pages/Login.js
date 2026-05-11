@@ -15,7 +15,7 @@ exports.LoginPage = class LoginPage {
   }
 
   async login(email, password) {
-    await this.loginLink.click(){ timeout: 10000 };
+    await this.loginLink.click({ timeout: 10000 });
     await this.emailInput.fill(email);
     await this.passwordInput.fill(password);
     await this.signInButton.click({ timeout: 10000 });
