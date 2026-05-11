@@ -21,7 +21,7 @@ jobs:
 
       - name: Run Playwright tests
         env:                                          # ✅ env goes HERE
-          BASE_URL: ${{ secrets.BASE_URL }}
+          BASE_URL: https://docmint.treeleaf.ai 
           USER_EMAIL: ${{ secrets.USER_EMAIL }}
           USER_PASSWORD: ${{ secrets.USER_PASSWORD }}
         run: npx playwright test
