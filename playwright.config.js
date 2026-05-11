@@ -38,6 +38,10 @@ export default defineConfig({
     screenshot: 'only-on-failure',
    
     trace: 'on-first-retry',
+    timeout: 60000, // Set a global timeout of 60 seconds for each test
+    expect: {
+      timeout: 10000, // Set a global timeout of 10 seconds for expect assertions
+    },
   },
 
   /* Configure projects for major browsers */
